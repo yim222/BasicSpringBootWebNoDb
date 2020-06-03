@@ -1,1 +1,1 @@
-http://localhost:8080/ws/greeting?name=lingar
+http://localhost:8080/greeting?name=lingar
