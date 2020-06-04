@@ -25,12 +25,26 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import com.lingar.BasicSpringBootWebNoDb.simple.service.HelloWorldService;
+
+@SpringBootApplication
+public class BasicSpringBootWebNoDb {
+
+    public static void main(String[] args) {
+        SpringApplication.run(BasicSpringBootWebNoDb.class, args);
+    }
+
+}
+
+
+//OLD
+
+
 //
 //@Configuration
 //@EnableAutoConfiguration
 //@ComponentScan
 //@SpringBootApplication
-//public class SampleSimpleApplication implements CommandLineRunner {
+//public class BasicSpringBootWebNoDb implements CommandLineRunner {
 //
 //	// Simple example shows how a command line spring application can execute an
 //	// injected bean service. Also demonstrates how you can use @Value to inject
@@ -45,13 +59,5 @@ import com.lingar.BasicSpringBootWebNoDb.simple.service.HelloWorldService;
 //	}
 //
 //	public static void main(String[] args) throws Exception {
-//		SpringApplication.run(SampleSimpleApplication.class, args);
+//		SpringApplication.run(BasicSpringBootWebNoDb.class, args);
 //	}
-@SpringBootApplication
-public class SampleSimpleApplication {
-
-    public static void main(String[] args) {
-        SpringApplication.run(SampleSimpleApplication.class, args);
-    }
-
-}
