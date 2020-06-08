@@ -15,16 +15,16 @@
  */
 
 package com.lingar.BasicSpringBootWebNoDb.simple;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
-import org.springframework.boot.test.OutputCapture;
-
-import com.lingar.BasicSpringBootWebNoDb.BasicSpringBootWebNoDb;
-
-import static org.junit.Assert.assertTrue;
+//
+//import org.junit.After;
+//import org.junit.Before;
+//import org.junit.Rule;
+//import org.junit.Test;
+//import org.springframework.boot.test.OutputCapture;
+//
+//import com.lingar.BasicSpringBootWebNoDb.BasicSpringBootWebNoDb;
+//
+//import static org.junit.Assert.assertTrue;
 
 /**
  * Tests for {@link BasicSpringBootWebNoDb}.
